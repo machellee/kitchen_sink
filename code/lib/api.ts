@@ -11,6 +11,7 @@ export interface Recipe {
   instructions?: string[]
   substitutions?: { ingredient: string; substitute: string; note?: string }[]
   rawIngredients?: { name: string; amount: string }[]
+  description?: string; 
 }
 
 export interface OnboardingOptions {
