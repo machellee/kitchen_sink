@@ -6,8 +6,10 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[],
-    allow_origin_regex=r"https://.*\.vercel\.app",# Next.js runs on port 3000
+    allow_origins=[
+        "https://kitchen-sink-lujetvpmy-machelle-s-projects.vercel.app",
+        "https://kitchen-sink-eight-lac.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],  # allows OPTIONS, GET, POST, PATCH etc.
     allow_headers=["*"],  # allows X-Device-ID and Content-Type
