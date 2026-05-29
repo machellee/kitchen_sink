@@ -1,6 +1,6 @@
 # KitchenSink 
 
-An AI powered recipe generation site.
+An AI powered recipe generation site. (Project Completed as part of Swarthmore College Human AI Interaction Course)
 
 ### Prerequisites
 
